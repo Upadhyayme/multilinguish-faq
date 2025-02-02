@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.ckeditor.com/ckeditor5/36.0.1/classic/ckeditor.js"></script>
+</head>
+<body>
+    <textarea id="editor"></textarea>
+    <script>
+        ClassicEditor.create(document.querySelector('#editor'))
+            .catch(error => console.error(error));
+    </script>
+</body>
+</html>
